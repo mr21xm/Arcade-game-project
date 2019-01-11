@@ -1,0 +1,88 @@
+
+body {
+    text-align: center;
+    opacity: 1;
+    background: #000;
+    background: -webkit-linear-gradient(to left, #000, #e74c3c);
+    background: linear-gradient(to left, #000, #e74c3c);
+}
+
+h1 {
+	color:white;
+	margin-top: 70px;
+    font-family: Black ops one;
+    font-size: 2em;
+}
+
+.Kmodal {
+    display:none;
+    position:fixed;
+    z-index:1;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0;
+    overflow:auto;
+    background-color:rgb(0,0,0,0.5);
+}
+
+span {
+    display: inline;
+    font-family: sans-serif;
+    font-size: 1.0em;
+    padding: 10px;
+    color:white;
+}
+
+.contentL {
+    font-size: 1.5em; 
+    background-color:black;
+    color:white;
+    width:70%;
+    margin:20% auto;
+    padding:30px;
+    text-align:center;
+    box-shadow: -1px -1px 39px -3px rgba(0,0,0,0.75);
+
+}
+
+.modal {
+    display:none;
+    position:fixed;
+    z-index:1;
+    width:100%;
+    height: 100%;
+    left:0;
+    top:0;
+    overflow:auto;
+    background-color:rgb(0,0,0,0.5);
+}
+
+.content {
+    font-size: 1.5em; 
+    background-color:#ffff;
+    width:70%;
+    margin:20% auto;
+    padding:30px;
+    text-align:center;
+    box-shadow: -1px -1px 39px -3px rgba(0,0,0,0.75);
+
+}
+
+#resetbtn {
+    padding:5px 10px 5px 10px;
+    font-size: 1.5em;
+    background-color:#000;
+    color:white;
+    font-family: coda;
+   }
+   
+   #resetbtn:hover, #resetbtn:focus {
+        cursor: pointer;
+        background-color:red;
+        color:white;
+   }
+   
+   embed {
+       display : none;
+   }
